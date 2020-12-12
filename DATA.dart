@@ -1,0 +1,17 @@
+import 'package:miniproject/main.dart';
+import 'package:miniproject/FORM.dart';
+import 'package:flutter/material.dart';
+
+
+class Data{
+  String name;
+  String parentname;
+  String year;
+  String programme;
+  String branch;
+  String academicyear;
+  String rollno;
+  String email;
+  String purpose;
+  Data({this.name,this.parentname,this.year,this.programme,this.branch,this.academicyear,this.rollno,this.email,this.purpose});
+}
